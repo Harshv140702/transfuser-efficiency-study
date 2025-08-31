@@ -1,0 +1,9 @@
+name: temp
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - pip
+  - python=3.11
+  - cudatoolkit
