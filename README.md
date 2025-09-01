@@ -35,7 +35,7 @@ from transfusereff import TransFuserEff as TransFuser
 ```
 
 ## Dataset generation, training and evaluation
-Follow the original TransFuser instructions for training and evaluation. The efficiency analysis tools can be used with both the original and efficiency-focused implementations.
+Follow the original TransFuser instructions for generating dataset, training and evaluation. The added modifications do not change these processes.
 
 ## Inference time analysis
 The custom parser (`log_parser.py`) extracts and summarizes inference times from log files (if stored).  
