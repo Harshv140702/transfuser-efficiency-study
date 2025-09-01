@@ -18,14 +18,13 @@ pip install mmcv-full==1.5.3 -f https://download.openmmlab.com/mmcv/dist/cu102/t
 ```
 
 ## Model Versions
-This repository contains two implementations of TransFuser:
 
-transfuser.py - The original implementation from the base repository
+This repository contains two implementations of **TransFuser**:
 
-transfusereff.py - An efficiency-focused version optimized for performance analysis
+- **`transfuser.py`** – The original implementation from the base repository  
+- **`transfusereff.py`** – An efficiency-focused version optimized for performance analysis
 
-To switch between model implementations, simply modify the import statement in team_code_transfuser/model.py:
-
+To switch between model implementations, simply modify the import statement in (`team_code_transfuser/model.py`):
 
 ```python
 # For the original implementation:
