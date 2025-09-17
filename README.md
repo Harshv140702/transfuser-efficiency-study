@@ -59,16 +59,16 @@ python log_parser.py <path_to_log_file>
 ## Results
 The study evaluated three encoder variants of the TransFuser architecture (ResNet, RegNet, and EfficientNet-B0) on the CARLA simulator.
 
-ResNet (baseline): Avg. Driving Score 0.309, Route Completion 0.614 km, Inference Time 60.5 ms (~16.5 Hz), Model Size 197 MB.
+ResNet (baseline): Avg. Driving Score 0.309, Route Completion 0.614, Inference Time 60.5 ms (~16.5 Hz), Model Size 197 MB.
 Unstable with frequent blockages (92.9%) and latency spikes up to 3.8 s.
 
-RegNet: Driving Score 0.458, Route Completion 1.538 km, Inference Time 83.8 ms (~12 Hz), Model Size 643 MB.
+RegNet: Driving Score 0.458, Route Completion 1.538, Inference Time 83.8 ms (~12 Hz), Model Size 643 MB.
 Strong performance but too slow and memory-heavy for real-time use.
 
-EfficientNet-B0 (40% data): Driving Score 0.381, Route Completion 1.079 km (91% higher than ResNet), Inference Time 55.5 ms (~18 Hz, fastest and most stable), Model Size 76 MB.
+EfficientNet-B0 (40% data): Driving Score 0.381, Route Completion 1.079 (91% higher than ResNet), Inference Time 55.5 ms (~18 Hz, fastest and most stable), Model Size 76 MB.
 Predictable latency with low variance.
 
-EfficientNet-B0 (100% data): Driving Score 0.508, Route Completion 1.680 km, Inference Time 78.3 ms (~13 Hz), Model Size 76 MB.
+EfficientNet-B0 (100% data): Driving Score 0.508, Route Completion 1.680, Inference Time 78.3 ms (~13 Hz), Model Size 76 MB.
 Outperforms RegNet in driving ability while remaining far more efficient.
 
 EfficientNet enables a practical balance between driving competency and real-time efficiency, making it the most viable candidate for real-world deployment.
