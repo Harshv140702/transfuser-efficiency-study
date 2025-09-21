@@ -1,4 +1,4 @@
-# transfuser-efficiency-study
+# Transfuser-efficiency-study
 This repository is a research oriented extension of the [TransFuser repository](https://github.com/autonomousvision/transfuser/tree/2022) aimed at analysing the computational efficiency of the encoders and the self attention mechanism.
 
 ## Setup
