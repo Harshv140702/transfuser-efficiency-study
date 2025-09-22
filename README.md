@@ -57,7 +57,7 @@ python log_parser.py <path_to_log_file>
 ```
 
 ## Results
-The study evaluated three encoder variants of the TransFuser architecture (ResNet, RegNet, and EfficientNet-B0) on the CARLA simulator.
+The study evaluated three encoder variants of the TransFuser architecture (ResNet, RegNet, and EfficientNet-B0) on the CARLA simulator. All models were trained using 40% of the dataset and were evaluated using the Longest6 benchmark.
 
 ResNet (baseline): Avg. Driving Score 0.309, Route Completion 0.614, Inference Time 60.5 ms (~16.5 Hz), Model Size 197 MB.
 Unstable with frequent blockages (92.9%) and latency spikes up to 3.8 s.
